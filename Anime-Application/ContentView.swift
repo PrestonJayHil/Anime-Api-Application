@@ -9,25 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
         NavigationView {
-            VStack {
-                
-                Text("Anime Finder")
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 200, height: 30, alignment: .center)
-                    .padding()
-                
-                NavigationLink (destination: Text("Button"),
-                    label: {
-                       ContinueButton()
-                    }
-                )
-            }
+
+                VStack {
+                    Image("wallpaper").resizable().aspectRatio(contentMode: .fill).frame(width: 450, height: 300, alignment: .center)
+                    // Text("Anime Finder")
+                      //  .aspectRatio(contentMode: .fit)
+                       .frame(width: 00, height: 30, alignment: .center)
+                        .padding()
+                 
+                    NavigationLink (destination: Text("Button"),
+                        label: {
+                           OpenButton()
+                        }
+                    )
+                }
+        
         }.navigationTitle("Home")
     }
 }
 
-struct ContinueButton: View {
+struct OpenButton: View {
     var body: some View {
         Text("Open").frame(width: 200, height: 50, alignment: .center).background(Color.pink)
             .foregroundColor(.white).cornerRadius(8)
@@ -37,6 +40,6 @@ struct ContinueButton: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewInterfaceOrientation(.portraitUpsideDown)
+            .previewInterfaceOrientation(.portrait)
     }
 }
