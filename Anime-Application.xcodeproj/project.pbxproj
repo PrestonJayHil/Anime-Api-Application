@@ -11,6 +11,7 @@
 		9119088028678E140000284D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9119087F28678E140000284D /* ContentView.swift */; };
 		9119088228678E180000284D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9119088128678E180000284D /* Assets.xcassets */; };
 		9119088528678E180000284D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9119088428678E180000284D /* Preview Assets.xcassets */; };
+		91550737286E3B4A005600E4 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91550736286E3B4A005600E4 /* Api.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9119087F28678E140000284D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9119088128678E180000284D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9119088428678E180000284D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91550736286E3B4A005600E4 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		9119087C28678E140000284D /* Anime-Application */ = {
 			isa = PBXGroup;
 			children = (
+				91550736286E3B4A005600E4 /* Api.swift */,
 				9119087D28678E140000284D /* Anime_ApplicationApp.swift */,
 				9119087F28678E140000284D /* ContentView.swift */,
 				9119088128678E180000284D /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91550737286E3B4A005600E4 /* Api.swift in Sources */,
 				9119088028678E140000284D /* ContentView.swift in Sources */,
 				9119087E28678E140000284D /* Anime_ApplicationApp.swift in Sources */,
 			);
